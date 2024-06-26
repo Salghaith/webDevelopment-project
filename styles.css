@@ -1,0 +1,99 @@
+/*
+ * File: style.css SWE381 - Project
+ * EDIT DATE: 5/09/2024 
+ * AUTHORS: 
+ * Saleh AlGhaith(Leader)		(443101007)
+ * Fahad Alohali                (443101023)
+ * Mshari Alaeena               (443101459)
+*/
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: white;
+    
+}
+
+.login-container {
+    width: 300px;
+    margin: 100px auto;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.login-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.input-group {
+    margin-bottom: 15px;
+    position: relative;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.input-group input[type="text"],
+.input-group input[type="password"],
+.input-group input[type="email"] {
+    width: 90%; 
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.input-icon {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 15px;
+}
+
+
+.input-group input[type="checkbox"] + label {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.signLog-link {
+    margin-top: 15px;
+    text-align: center;
+}
+
+.signLog-link a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.signLog-link a:hover {
+    text-decoration: underline;
+}
+.errorMessage {
+    color:red;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
