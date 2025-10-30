@@ -23,3 +23,6 @@ A minimal Q&A website prototype where users can:
 ## 👤 Author
 **Saleh Alghaith**  
 [GitHub @Salghaith](https://github.com/Salghaith)
+
+---
+📅 **Date:** Dec 2023 
